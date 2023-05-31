@@ -1,0 +1,39 @@
+:root {
+  --first-color: #e74646;
+  --second-color: #146c94;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/webfonts/Vazirmatn-Regular.woff2) format("woff2");
+}
+
+*,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "vazir";
+}
+li,
+ol,
+ul {
+  list-style: none;
+}
+.first-color-text {
+  color: var(--first-color);
+}
+.first-color-bg {
+  background-color: var(--first-color);
+}
+.second-color-text {
+  color: var(--second-color);
+}
+.second-color-bg {
+  background-color: var(--second-color);
+}
+.cusotm-wrapper-of-info {
+  border: 1px solid #00000028;
+}
+.custom-focus-visible:focus-visible {
+  outline: 0;
+}
